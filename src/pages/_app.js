@@ -21,8 +21,8 @@ function App(props) {
           <>
             <Navbar
               color="default"
-              logo="https://github.com/onuryilmaz10/blackdawn/blob/main/src/images/blackdawn-fire-in-the-hole-logo.png"
-              logoInverted="https://github.com/onuryilmaz10/blackdawn/blob/main/src/images/blackdawn-fire-in-hole-logo-white.png"
+              logo="https://github.com/onuryilmaz10/blackdawn/blob/main/src/images/blackdawn-fire-in-the-hole-logo.svg"
+              logoInverted="https://github.com/onuryilmaz10/blackdawn/blob/main/src/images/blackdawn-fire-in-hole-logo-white.svg"
             />
 
             <Switch>
@@ -50,8 +50,8 @@ function App(props) {
               bgImageOpacity={1}
               description="Blackdawn | Fire in the hole. Pellet Stove "
               copyright={`© ${new Date().getFullYear()} Blackdawn | Fire in the Hole. Pellet Stove`}
-              logo="https://github.com/onuryilmaz10/blackdawn/blob/main/src/images/blackdawn-fire-in-the-hole-logo.png"
-              logoInverted="https://github.com/onuryilmaz10/blackdawn/blob/main/src/images/blackdawn-fire-in-hole-logo-white.png"
+              logo="https://github.com/onuryilmaz10/blackdawn/blob/main/src/images/blackdawn-fire-in-the-hole-logo.svg"
+              logoInverted="https://github.com/onuryilmaz10/blackdawn/blob/main/src/images/blackdawn-fire-in-hole-logo-white.svg"
               sticky={true}
             />
           </>
