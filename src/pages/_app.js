@@ -48,8 +48,8 @@ function App(props) {
               size="normal"
               bgImage=""
               bgImageOpacity={1}
-              description="A short description of what you do here"
-              copyright={`© ${new Date().getFullYear()} Company`}
+              description="Blackdawn | Fire in the hole. Pellet Stove "
+              copyright={`© ${new Date().getFullYear()} Blackdawn | Fire in the Hole. Pellet Stove`}
               logo="https://uploads.divjoy.com/logo.svg"
               logoInverted="https://uploads.divjoy.com/logo-white.svg"
               sticky={true}

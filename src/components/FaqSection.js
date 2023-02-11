@@ -38,29 +38,29 @@ function FaqSection(props) {
 
   const items = [
     {
-      question: "Integer ornare neque mauris?",
+      question: "What is a pellet stove and how does it work?",
       answer:
-        "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus. Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.",
+        "A pellet stove is a heating appliance that burns compressed wood or biomass pellets to produce heat. The pellets are fed into the stove from a storage hopper and burned in a combustion chamber, producing hot air which is then circulated into the room by a fan.",
     },
     {
-      question: "Lorem ipsum dolor sit amet?",
+      question: "What are the advantages of using a pellet stove?",
       answer:
-        "Nunc nulla mauris, laoreet vel cursus lacinia, consectetur sit amet tellus. Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.",
+        "One of the main advantages of a pellet stove is that it is more environmentally friendly than traditional heating methods as the fuel used is a renewable resource. Pellet stoves are also efficient, producing more heat with less fuel, and are convenient, as the fuel is automatically fed into the stove from a hopper.",
     },
     {
-      question: "Suspendisse ut tincidunt?",
+      question: "How much does it cost to operate a pellet stove?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis, metus et mattis ullamcorper. Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.",
+        "The cost of operating a pellet stove will depend on a variety of factors, such as the price of the pellets, the size of the stove, and how often it is used. On average, it costs about $5 to $25 per day to operate a pellet stove, but this can vary widely based on local prices and usage patterns.",
     },
     {
-      question: "Ut enim ad minim veniam?",
+      question: "How often do the pellets need to be refilled in the hopper?",
       answer:
-        "Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.",
+        "This will depend on the size of the hopper and the usage of the stove. On average, a 40-pound hopper will need to be refilled every 24 hours of continuous use, but this can vary based on the stove's efficiency and the ambient temperature.",
     },
     {
-      question: "In velit mi, rhoncus dictum neque?",
+      question: "Is it difficult to install a pellet stove?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+        "Installing a pellet stove can be a complex and involved process, and it is recommended that you hire a professional installer to ensure that the stove is installed safely and correctly. This will typically cost several hundred dollars, but will ensure that the stove is installed correctly and that it operates safely and efficiently.",
     },
   ];
 
