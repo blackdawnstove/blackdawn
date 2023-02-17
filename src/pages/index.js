@@ -16,7 +16,7 @@ function IndexPage(props) {
         bgImageOpacity={1}
         title="Blackdawn"
         subtitle="Fire in the Hole."
-        image="https://uploads.divjoy.com/undraw-japan_ubgk.svg"
+        image="https://www.wisewaypelletstove.com/wp-content/uploads/2020/12/mainwisewayimage.jpg"
         buttonText="Go To Documentation"
         buttonColor="primary"
         buttonPath="/documentation"
