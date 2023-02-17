@@ -37,25 +37,25 @@ function FeaturesSection(props) {
 
   const items = [
     {
-      title: "Explore",
+      title: "No Electricity",
       description:
         "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
       image: "https://uploads.divjoy.com/undraw-mind_map_cwng.svg",
     },
     {
-      title: "Explore",
+      title: "Low Operating Costs",
       description:
         "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
       image: "https://uploads.divjoy.com/undraw-personal_settings_kihd.svg",
     },
     {
-      title: "Explore",
+      title: "No Noise",
       description:
         "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
       image: "https://uploads.divjoy.com/undraw-having_fun_iais.svg",
     },
     {
-      title: "Explore",
+      title: "Emergency Heat",
       description:
         "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
       image: "https://uploads.divjoy.com/undraw-balloons_vxx5.svg",
