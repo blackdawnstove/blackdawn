@@ -39,86 +39,86 @@ function FeaturesSection(props) {
     {
       title: "No Electricity",
       description:
-        "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-      image: "https://uploads.divjoy.com/undraw-mind_map_cwng.svg",
+          "There are no blowers, no auger and no control board.",
+      image: "https://tokyaykereste.s3.eu-central-1.amazonaws.com/blackdawn/blackdawn-power.png",
     },
     {
       title: "Low Operating Costs",
       description:
-        "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-      image: "https://uploads.divjoy.com/undraw-personal_settings_kihd.svg",
+          "Pellet fire has one of the lowest running cost sources to heat.",
+      image: "https://tokyaykereste.s3.eu-central-1.amazonaws.com/blackdawn/blackdawn-salary.png",
     },
     {
       title: "No Noise",
       description:
-        "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-      image: "https://uploads.divjoy.com/undraw-having_fun_iais.svg",
+          "No blower and auger, so it works silently.",
+      image: "https://tokyaykereste.s3.eu-central-1.amazonaws.com/blackdawn/blackdawn-no-sound.png",
     },
     {
       title: "Emergency Heat",
       description:
-        "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-      image: "https://uploads.divjoy.com/undraw-balloons_vxx5.svg",
+          "It does not need an external power source, so it can be used in emergency situations.",
+      image: "https://tokyaykereste.s3.eu-central-1.amazonaws.com/blackdawn/blackdawn-stove.png",
     },
   ];
 
   return (
-    <Section
-      bgColor={props.bgColor}
-      size={props.size}
-      bgImage={props.bgImage}
-      bgImageOpacity={props.bgImageOpacity}
-    >
-      <Container>
-        <SectionHeader
-          title={props.title}
-          subtitle={props.subtitle}
-          size={4}
-          textAlign="center"
-        />
-        <Container
-          maxWidth="md"
-          disableGutters={true}
-          className={classes.itemsContainer}
-        >
-          {items.map((item, index) => (
-            <Grid
-              className={classes.row}
-              container={true}
-              item={true}
-              alignItems="center"
-              spacing={4}
-              key={index}
-            >
-              <Grid item={true} xs={12} md={6}>
-                <Box
-                  textAlign={{
-                    xs: "center",
-                    md: "left",
-                  }}
+      <Section
+          bgColor={props.bgColor}
+          size={props.size}
+          bgImage={props.bgImage}
+          bgImageOpacity={props.bgImageOpacity}
+      >
+        <Container>
+          <SectionHeader
+              title={props.title}
+              subtitle={props.subtitle}
+              size={4}
+              textAlign="center"
+          />
+          <Container
+              maxWidth="md"
+              disableGutters={true}
+              className={classes.itemsContainer}
+          >
+            {items.map((item, index) => (
+                <Grid
+                    className={classes.row}
+                    container={true}
+                    item={true}
+                    alignItems="center"
+                    spacing={4}
+                    key={index}
                 >
-                  <Typography variant="h5" gutterBottom={true}>
-                    {item.title}
-                  </Typography>
-                  <Typography variant="subtitle1">
-                    {item.description}
-                  </Typography>
-                </Box>
-              </Grid>
-              <Grid item={true} xs={12} md={6}>
-                <figure className={classes.figure}>
-                  <img
-                    src={item.image}
-                    alt={item.title}
-                    className={classes.image}
-                  />
-                </figure>
-              </Grid>
-            </Grid>
-          ))}
+                  <Grid item={true} xs={12} md={6}>
+                    <Box
+                        textAlign={{
+                          xs: "center",
+                          md: "left",
+                        }}
+                    >
+                      <Typography variant="h5" gutterBottom={true}>
+                        {item.title}
+                      </Typography>
+                      <Typography variant="subtitle1">
+                        {item.description}
+                      </Typography>
+                    </Box>
+                  </Grid>
+                  <Grid item={true} xs={12} md={6}>
+                    <figure className={classes.figure}>
+                      <img
+                          src={item.image}
+                          alt={item.title}
+                          className={classes.image}
+                      />
+                    </figure>
+                  </Grid>
+                </Grid>
+            ))}
+          </Container>
         </Container>
-      </Container>
-    </Section>
+      </Section>
   );
 }
 
