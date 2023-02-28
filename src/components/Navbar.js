@@ -105,32 +105,16 @@ function Navbar(props) {
           className={classes.drawerList}
           onClick={() => setDrawerOpen(false)}
         >
-          <ListItem component={Link} to="/about" button={true}>
-            <ListItemText>About</ListItemText>
+          <ListItem component={Link} to="/documentation" button={true}>
+            <ListItemText>Documentation</ListItemText>
           </ListItem>
           <ListItem component={Link} to="/faq" button={true}>
-            <ListItemText>Pricing</ListItemText>
-          </ListItem>
-          <ListItem component={Link} to="/about" button={true}>
             <ListItemText>FAQ</ListItemText>
           </ListItem>
-          <ListItem
-            button={true}
-            component="a"
-            href="https://app.mysite.com/auth/signin"
-          >
-            <ListItemText>Sign in</ListItemText>
+          <ListItem component={Link} to="/contact" button={true}>
+            <ListItemText>Contact</ListItemText>
           </ListItem>
-          <ListItem>
-            <Button
-              variant="contained"
-              color="primary"
-              component="a"
-              href="https://app.mysite.com/auth/signup"
-            >
-              Sign up
-            </Button>
-          </ListItem>
+          
           <ListItem>
             <IconButton
               color="inherit"
